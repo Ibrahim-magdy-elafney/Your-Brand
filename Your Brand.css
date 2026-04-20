@@ -4,7 +4,6 @@ html {
 
 }
 
-
 body {
 
     background: #0f0f0f;
@@ -117,13 +116,15 @@ img {
     border: 1px solid #c08457;
     padding: 15px;
     align-items: center;
+
 }
 
 .box a {
+
     color: white;
     text-decoration: none;
-}
 
+}
 
 .mainbox {
 
