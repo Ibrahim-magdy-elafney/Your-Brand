@@ -148,28 +148,28 @@ img {
         text-align: center;
     }
 
+    /* خلي الروابط أفقي بس تلف */
     .box {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
     }
 
+    /* هنا بقى الحل الصح */
     .flex {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .text {
-        max-width: 100%;
-    }
-
+    /* ظبط الصور */
     img {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     section {
         margin: 10px;
         padding: 20px;
     }
-
 }
