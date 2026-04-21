@@ -15,12 +15,45 @@ body {
 
 }
 
-header {
+@media (max-width: 768px) {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
+
+    header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+    .box {
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+
+        color: #fff;
+        background: #1a1a1a;
+        border: 1px solid #c08457;
+        padding: 15px;
+        align-items: center;
+
+    }
 
 }
 
@@ -33,20 +66,25 @@ header {
 
 }
 
-section {
-    background: #1a1a1a;
-    margin: 20px;
-    padding: 40px;
-    border-radius: 10px;
-}
+@media (max-width: 768px) {
 
-footer {
 
-    margin-left: 50px;
-    background: #1a1a1a;
-    margin: 20px;
-    padding: 40px;
-    border-radius: 10px;
+    section {
+        background: #1a1a1a;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    footer {
+
+        margin-left: 50px;
+        background: #1a1a1a;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+
+    }
 
 }
 
@@ -60,6 +98,22 @@ h3 {
 
 }
 
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+}
+
 
 button {
     background: #c08457;
@@ -67,6 +121,13 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    width: fit-content;
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
 }
 
 button:hover {
@@ -83,6 +144,17 @@ button:hover {
 
 }
 
+@media (max-width: 768px) {
+
+    .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+
+
 .text {
 
     width: 100%;
@@ -93,30 +165,18 @@ img {
 
     width: 100%;
     height: auto;
+    border-radius: 10px;
 
 }
 
-.box {
-
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-
-
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    color: #fff;
-    background: #1a1a1a;
-    border: 1px solid #c08457;
-    padding: 15px;
-    align-items: center;
-
+@media (max-width: 768px) {
+    img {
+        max-height: 250px;
+        object-fit: cover;
+    }
 }
+
+
 
 .box a {
 
@@ -137,88 +197,6 @@ img {
     color: #fff;
     text-decoration: none;
 
-}
-
-
-@media (max-width: 768px) {
-
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .box {
-        flex-direction: column;
-        width: 100%;
-        gap: 15px;
-    }
-
-}
-
-@media (max-width: 768px) {
-
-    section,
-    footer {
-        margin: 10px;
-        padding: 15px;
-    }
-
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-@media (max-width: 768px) {
-
-    .flex {
-        flex-direction: column;
-        text-align: center;
-    }
-
-}
-
-
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-    img {
-        max-height: 250px;
-        object-fit: cover;
-    }
-}
-
-@media (max-width: 768px) {
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-}
-
-button {
-    width: fit-content;
-}
-
-@media (max-width: 768px) {
-    button {
-        width: 100%;
-    }
 }
 
 
