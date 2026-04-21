@@ -99,6 +99,7 @@ ul {
 h1,
 h2,
 h3 {
+
     font-family: "Bebas Neue", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -124,12 +125,14 @@ h3 {
 
 
 button {
+
     background: #c08457;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     width: fit-content;
+
 }
 
 @media (max-width: 768px) {
@@ -148,6 +151,7 @@ button:hover {
 
     display: flex;
     gap: 20px;
+    align-items: center;
 
 }
 
@@ -156,6 +160,7 @@ button:hover {
     .flex {
         flex-direction: column;
         align-items: stretch;
+        text-align: center;
     }
 
 }
