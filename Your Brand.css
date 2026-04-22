@@ -50,7 +50,6 @@ body {
         color: #fff;
         background: #1a1a1a;
         border: 1px solid #c08457;
-        padding: 15px;
         align-items: center;
 
     }
@@ -164,8 +163,6 @@ button:hover {
     }
 
 }
-
-
 
 .text {
 
