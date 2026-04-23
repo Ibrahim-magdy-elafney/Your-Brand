@@ -226,21 +226,6 @@ select {
 
 }
 
-.mainbox {
-
-    display: flex;
-    flex-direction: column;
-
-}
-
-.mainbox a {
-
-    color: #fff;
-    text-decoration: none;
-
-}
-
-
 .menu-card {
     display: flex;
     gap: 20px;
