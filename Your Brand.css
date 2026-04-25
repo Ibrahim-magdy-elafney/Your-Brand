@@ -242,7 +242,15 @@ select {
     background: #1a1a1a;
     border: 1px solid #c08457;
 
+    width: 200px;
 
+
+}
+
+.Mainbox {
+
+    color: #0f0f0f;
+    text-decoration: none;
 
 }
 
