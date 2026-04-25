@@ -227,7 +227,7 @@ select {
 
 }
 
-.Mainbox {
+.Mainbox:hover {
 
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -239,11 +239,11 @@ select {
     justify-content: space-between;
     align-items: center;
 
-    color: #fff;
+    color: #a06b45;
     background: #1a1a1a;
     border: 1px solid #c08457;
     width: 260px;
-    margin-left: 50px;
+    margin-left: 30px;
 
 }
 
