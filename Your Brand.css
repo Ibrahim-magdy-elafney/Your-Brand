@@ -45,18 +45,24 @@ body {
         margin: 0;
         padding: 0;
 
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         gap: 15px;
 
         color: #fff;
         background: #1a1a1a;
         border: 1px solid #c08457;
+        justify-content: space-between;
         align-items: center;
+        width: 260px;
+        margin-left: 30px;
 
     }
 
+
 }
+
+
 
 .box li {
     width: 100%;
@@ -196,6 +202,12 @@ img {
 
 }
 
+.box:hover {
+
+    color: #a06b45;
+
+}
+
 select {
 
     color: white;
@@ -227,35 +239,39 @@ select {
 
 }
 
-.Mainbox {
+@media (max-width: 768px) {
 
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    .Mainbox {
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
 
-    background: #1a1a1a;
-    border: 1px solid #c08457;
-    width: 260px;
-    margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
 
-}
+        background: #1a1a1a;
+        border: 1px solid #c08457;
+        width: 260px;
+        margin-left: 30px;
 
-.Mainbox {
+    }
 
-    color: #a06b45;
+    .Mainbox:hover {
 
-}
+        color: #a06b45;
 
-.Mainbox a {
+    }
 
-    color: #fff;
-    text-decoration: none;
+    .Mainbox a {
+
+        color: #fff;
+        text-decoration: none;
+
+    }
 
 }
 
