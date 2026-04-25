@@ -229,9 +229,20 @@ select {
 
 .Mainbox {
 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+
+    color: #fff;
+    background: #1a1a1a;
+    border: 1px solid #c08457;
+
+
 
 }
 
