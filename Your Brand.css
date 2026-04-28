@@ -252,16 +252,12 @@ select {
     justify-content: space-between;
     align-items: center;
 
+    list-style: none;
     background: #1a1a1a;
     border: 1px solid #c08457;
     width: 300px;
     margin-left: 15px;
-
-}
-
-.Mainbox:hover {
-
-    color: #a06b45;
+    font-size: 5px;
 
 }
 
