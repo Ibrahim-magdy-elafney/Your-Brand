@@ -45,8 +45,7 @@ body {
     padding: 0;
 
     flex-direction: row;
-    width: 100%;
-    max-width: 500px;
+    width: 450px;
     gap: 15px;
 
     color: #fff;
