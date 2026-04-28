@@ -39,24 +39,82 @@ body {
     font-weight: 600;
     font-style: normal;
 
-
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     list-style: none;
     margin: 0;
     padding: 0;
 
-    flex-direction: row;
-    width: 100%;
     gap: 15px;
 
     color: #fff;
     background: #1a1a1a;
     border: 1px solid #c08457;
     justify-content: space-between;
-    align-items: center;
-    width: 260px;
+    width: 500px;
     margin-left: 25px;
+
+}
+
+.box:hover {
+
+    color: #a06b45;
+
+}
+
+.link-1 {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 200px;
+
+}
+
+.link-7 {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 200px;
+
+}
+
+.link-2 {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 150px;
+
+}
+
+.link-6 {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 150px;
+
+}
+
+.link-3 {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+
+}
+
+.link-5 {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+
+}
+
+.link-4 {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 30px;
 
 }
 
@@ -250,7 +308,7 @@ select {
 
     background: #1a1a1a;
     border: 1px solid #c08457;
-    width: 440px;
+    width: 400px;
     margin-left: 15px;
 
 }
@@ -265,6 +323,31 @@ select {
 
     color: #fff;
     text-decoration: none;
+
+}
+
+.He {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
+
+
+}
+
+.Ab {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+
+}
+
+.Cont {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
 
 }
 
