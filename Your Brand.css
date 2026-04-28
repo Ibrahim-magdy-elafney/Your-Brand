@@ -52,7 +52,7 @@ body {
     background: #1a1a1a;
     border: 1px solid #c08457;
     align-items: center;
-
+    font-size: 13px;
 
 }
 
@@ -256,8 +256,8 @@ select {
     background: #1a1a1a;
     border: 1px solid #c08457;
     width: 300px;
-    margin-left: 15px;
-    font-size: 5px;
+    margin-left: 5px;
+    font-size: 15px;
 
 }
 
