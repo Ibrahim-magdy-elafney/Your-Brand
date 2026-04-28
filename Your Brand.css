@@ -51,8 +51,9 @@ body {
     background: #1a1a1a;
     border: 1px solid #c08457;
     justify-content: space-between;
-    width: 500px;
+    width: 385px;
     margin-left: 25px;
+    font-size: small;
 
 }
 
@@ -308,7 +309,7 @@ select {
 
     background: #1a1a1a;
     border: 1px solid #c08457;
-    width: 400px;
+    width: 300px;
     margin-left: 15px;
 
 }
