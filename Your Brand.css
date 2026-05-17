@@ -171,6 +171,39 @@ button:hover {
 
 }
 
+.header-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 2px;
+
+
+}
+
+.section-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    justify-content: flex-start;
+
+}
+
+.title-with-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
 .text {
 
     width: 100%;
@@ -192,7 +225,27 @@ img {
     }
 }
 
+.cup-of-coffee {
 
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+    border-radius: 0;
+
+}
+
+.cup-of-coffee1 {
+
+    width: 160px;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+}
 
 .box a {
 
